@@ -1,3 +1,3 @@
-names = ["Shadow", "Darren", "Lawer"]
+names = ["shadow", "darren", "lawer"]
 for name in names:
-    print("Hello " + name + ", would you like to learn some Python today?")
+    print("Hello " + name.title() + ", would you like to learn some Python today?")
