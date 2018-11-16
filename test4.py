@@ -1,9 +1,11 @@
-num = []
 n = int(input())
 count = 1
-summ =0
+result = []
 while count <= n:
     count +=1
-    summ += int(input()) // 10
-print(summ)
+    num = int(input())
+    while num // 10:
+        num //=10
+    result.append(num)
+print(sum(result))
     
