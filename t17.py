@@ -11,10 +11,11 @@ while count <= int(n[1]):
         count +=1
         a.append(i)
     i +=1
-for k in range(int(n[0]),int(n[1])+1):
-    if not (k-4)%10:
-        print(a[k-1])
+num = a[int(n[0])-1:int(n[1])]
+for k in range(len(num)):
+    if k==len(num)-1:
+        print(num[k],end='')
+    elif not (k+1)%10:
+        print(num[k])
     else:
-        print(a[k-1],end=' ')
-if int(n[1])%10:
-    print()
+        print(num[k],end=' ')
