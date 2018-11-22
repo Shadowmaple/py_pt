@@ -10,7 +10,7 @@ def search(b,x):
             if flag[y]==1:
                 break
 a, n = [], input().split()
-search(a, 200)
+search(a, 200000)
 num = a[int(n[0])-1:int(n[1])]
 for k in range(len(num)):
     if k==len(num)-1:
