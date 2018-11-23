@@ -1,4 +1,4 @@
-n, m= int(input()), input().split()
+n, m = int(input()), input().split()
 a = []
 for i in range(n):
     for j in range(n):
