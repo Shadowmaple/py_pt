@@ -19,7 +19,7 @@ for i in range(max_,n):
         if date[min_]>date[i]:
             min_ = i
 if num:
-    print(num,end=' ')
+    print(num, end=' ')
     print(name[min_]+' '+name[max_])
 else:
     print(num)
